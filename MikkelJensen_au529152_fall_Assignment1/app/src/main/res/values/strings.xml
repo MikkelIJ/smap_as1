@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Word Learner</string>
+    <string name="word">Word</string>
+    <string name="n_a">N/A</string>
+    <string name="pronounced">Pronounced</string>
+    <string name="description">Description:</string>
+    <string name="no_text">NO TEXT</string>
+    <string name="notes">Notes:</string>
+    <string name="press_edit_to_add_notes">[press EDIT to add notes]</string>
+    <string name="cancel">CANCEL</string>
+    <string name="edit">EDIT</string>
+    <string name="name_of_word">Name of word</string>
+    <string name="word_rating">Word Rating:</string>
+    <string name="ok">OK</string>
+    <string name="my_words">My Words</string>
+    <string name="exit">EXIT</string>
+</resources>

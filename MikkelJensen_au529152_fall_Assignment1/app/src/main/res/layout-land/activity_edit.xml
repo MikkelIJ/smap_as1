@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@color/greyish"
+    tools:context=".EditActivity">
+
+    <TextView
+        android:id="@+id/txtWordEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/name_of_word"
+        android:textSize="32dp"
+        />
+
+    <TextView
+        android:id="@+id/txtWordRatingEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_below="@id/txtWordEdit"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="32dp"
+        android:text="@string/word_rating"
+        />
+
+    <TextView
+        android:id="@+id/txtRatingDetailData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/seekbar"
+        android:layout_toRightOf="@id/txtWordRatingEdit"
+        android:textSize="32dp"
+        android:paddingLeft="20dp"
+        android:text="0.0"
+        />
+    <!--seekbar inspired by https://www.youtube.com/watch?v=G03ZR0jKtVs-->
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtWordRatingEdit"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="2dp"
+        android:paddingTop="16dp"
+
+        />
+
+    <TextView
+        android:id="@+id/txtEditNotes"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:paddingTop="16dp"
+        android:text="@string/notes"
+        android:textSize="24dp"
+        />
+
+    <EditText
+        android:id="@+id/txtEditNotesData"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEditNotes"
+        android:layout_alignParentRight="true"
+        />
+
+    <Button
+        android:id="@+id/btnCancelEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>

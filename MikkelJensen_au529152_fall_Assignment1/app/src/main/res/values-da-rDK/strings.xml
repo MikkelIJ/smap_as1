@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Word Learner</string>
+    <string name="cancel">ANNULLER</string>
+    <string name="description">Beskrivelse</string>
+    <string name="edit">REDIGER</string>
+    <string name="exit">FORLAD</string>
+    <string name="my_words">Mine Ord</string>
+    <string name="n_a">TOM</string>
+    <string name="name_of_word">Ord</string>
+    <string name="no_text">INGEN TEKST</string>
+    <string name="notes">Noter:</string>
+    <string name="ok">OK</string>
+    <string name="press_edit_to_add_notes">[tryk REDIGER for noter]</string>
+    <string name="pronounced">Udtales</string>
+    <string name="word">Ord</string>
+    <string name="word_rating">Ord bedømmelse</string>
+</resources>

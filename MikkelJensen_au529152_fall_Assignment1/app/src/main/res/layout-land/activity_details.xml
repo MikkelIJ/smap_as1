@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@color/greyish"
+    tools:context=".DetailsActivity">
+
+    <ImageView
+        android:id="@+id/imageViewDetailed"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txtWordDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewDetailed"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="16dp"
+        android:text="@string/word"
+        android:textSize="32dp"
+        />
+
+    <TextView
+        android:id="@+id/txtRatingDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtwordPronauncedDetail"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="40dp"
+        android:text="@string/n_a"
+        android:textSize="64dp"
+        />
+
+    <TextView
+        android:id="@+id/txtwordPronauncedDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/txtWordDetail"
+        android:paddingLeft="16dp"
+        android:textSize="32dp"
+        android:text="@string/pronounced"
+        />
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/imageViewDetailed"
+        android:text="@string/description"
+        android:paddingLeft="16dp"
+        android:textSize="24dp"
+        />
+    <TextView
+        android:id="@+id/txtDescriptionData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDescription"
+        android:layout_toRightOf="@id/imageViewDetailed"
+        android:paddingLeft="16dp"
+        android:text="@string/no_text"
+        />
+    <TextView
+        android:id="@+id/txtNotesDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDescriptionData"
+        android:layout_toRightOf="@id/imageViewDetailed"
+        android:paddingLeft="16dp"
+        android:text="@string/notes"
+        android:paddingTop="16dp"
+        android:textSize="24dp"
+        />
+
+    <TextView
+        android:id="@+id/txtNotesDataDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNotesDetail"
+        android:layout_toRightOf="@id/imageViewDetailed"
+        android:paddingLeft="16dp"
+        android:text="@string/press_edit_to_add_notes"
+        />
+
+    <Button
+        android:id="@+id/btnCancelDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:layout_toRightOf="@id/imageViewDetailed"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+
+</RelativeLayout>
